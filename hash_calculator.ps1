@@ -25,9 +25,9 @@ function Calculer-Hash {
 }
 
 
-$CheminDossier1 = "E:\forensic\disk images"
-$CheminDossier2 = "D:\Desktop\logs forensic\archives"
-$CheminFichierCSV = "D:\Desktop\logs forensic\archives\hash.csv"
+$CheminDossier1 = "PATH  Images"
+$CheminDossier2 = "PATH archives"
+$CheminFichierCSV = "PATH hashs CSV"
 
 # Comparer des fichiers en SHA512
 if ((Test-Path $CheminDossier1) -and (Get-Item $CheminDossier1).PSIsContainer) {
